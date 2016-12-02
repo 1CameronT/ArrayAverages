@@ -41,6 +41,8 @@ public class ArrayAverages {
 		
 		average2 = sum / student2.length;
 		
+		sum = 0;
+		
 		for(int i = 0; i < student1.length; i++){
 			sum += student1[i];
 		}
@@ -62,10 +64,6 @@ public class ArrayAverages {
 		}
 		
 		userInput.close();
-		
-		
-		
-		
 		
 
 	}
